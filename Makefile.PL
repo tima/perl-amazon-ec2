@@ -2,21 +2,20 @@ use ExtUtils::MakeMaker;
 use strict;
 
 WriteMakefile(
-    'NAME'             => '##MAIN_MODULE##',
-    'VERSION_FROM'     => '##MAIN_MODULE_REL_PATH##',
-    'ABSTRACT_FROM'    => '##MAIN_MODULE_REL_PATH##',
-    'MIN_PERL_VERSION' => '##MIN_PERL_VERSION##',
+    'NAME'             => 'Amazon::EC2',
+    'VERSION_FROM'     => 'lib/Amazon/EC2.pm',
+    'ABSTRACT_FROM'    => 'lib/Amazon/EC2.pm',
+    'MIN_PERL_VERSION' => '5.6.1',
     'LICENSE'          => 'perl',
     'AUTHOR'           => 'Timothy Appnel <tima@cpan.org>',
-    'PREREQ_PM'        => {
-    	##DEPENDENCIES_LIST_DUMP##
-    },
+    'PREREQ_PM'        => {'Test::More' => 0,},
     'META_MERGE'       => {
         'resources' => {
             'license'    => 'http://dev.perl.org/licenses/',
-            'repository' => 'http://github.com/tima/##GITHUB##',
+            'repository' => 'http://github.com/tima/perl-amazon-ec2',
+
             #'bugtracker' =>
-            #  'http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Greeking',
+            #  'http://rt.cpan.org/Public/Dist/Display.html?Name=Module-Name',
         },
     },
 );

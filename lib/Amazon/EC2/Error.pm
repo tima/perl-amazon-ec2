@@ -1,7 +1,8 @@
 package Amazon::EC2::Error;
-
 use strict;
 use warnings;
+
+1;
 
 __END__
 

@@ -4,7 +4,7 @@
 
 use strict;
 use warnings;
-use Test::More;
+use Test::More skip_all => "We aren't ready to create a CPAN build...";
 
 my $MODULE = 'Test::CPAN::Meta 0.12';
 

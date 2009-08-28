@@ -1,7 +1,9 @@
 package Amazon::EC2::ConsoleOutput;
-
 use strict;
 use warnings;
+
+
+1;
 
 __END__
 

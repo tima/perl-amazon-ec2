@@ -1,7 +1,8 @@
 package Amazon::EC2::Image;
-
 use strict;
 use warnings;
+
+1;
 
 __END__
 

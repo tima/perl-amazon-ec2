@@ -1,11 +1,14 @@
 package Amazon::EC2;
-
 use strict;
 use warnings;
 
 our $VERSION = '0.01';
 
+1;
+
 __END__
+
+=begin pod
 
 =head1 NAME
 
@@ -23,7 +26,7 @@ managing Amazon Elastic Computing Cloud (EC2) services.
 
 =head2 new 
 
-Create a new S3 client object. Takes some arguments:
+Create a new EC2 client object. Takes some arguments:
 
 =over
 
@@ -198,6 +201,9 @@ For other issues, contact the author.
 The software is released under the Artistic License. The
 terms of the Artistic License are described at
 http://www.perl.com/language/misc/Artistic.html. Except
-where otherwise noted, Amazon::S3 is Copyright 2008, Timothy
-Appnel, tima@cpan.org. All rights reserved.
+where otherwise noted, Amazon::EC2 is Copyright 2008-2009,
+Timothy Appnel, tima@cpan.org. All rights reserved.
 
+=cut
+
+=end pod

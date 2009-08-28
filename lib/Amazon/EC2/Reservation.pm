@@ -1,7 +1,8 @@
 package Amazon::EC2::Reservation;
-
 use strict;
 use warnings;
+
+1;
 
 __END__
 
