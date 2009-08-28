@@ -1,0 +1,21 @@
+CHANGES
+lib/Amazon/EC2.pm
+lib/Amazon/EC2/Attachment.pm
+lib/Amazon/EC2/ConsoleOutput.pm
+lib/Amazon/EC2/Error.pm
+lib/Amazon/EC2/Image.pm
+lib/Amazon/EC2/Instance.pm
+lib/Amazon/EC2/InstanceState.pm
+lib/Amazon/EC2/Reservation.pm
+lib/Amazon/EC2/Response.pm
+lib/Amazon/EC2/Snapshot.pm
+lib/Amazon/EC2/Volume.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/01_compile.t
+t/90_perltidy.t
+t/96_manifest.t
+t/97_meta.t
+t/98_pod_syntax.t
+t/99_pod_coverage.t
